@@ -48,6 +48,8 @@ if (array_key_exists('ack',$inboundArray)) {
  * incoming messages
  */
 if (array_key_exists('message',$inboundArray)) {
+
+    
     /**
     * Write incoming messages to the log
     */
